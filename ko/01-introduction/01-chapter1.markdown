@@ -2,9 +2,9 @@
 
 이번 장은 기트 시작하기다. 버전 관리 툴에 대한 몇 가지 배경지식부터 살펴본 다음 로컬 시스템에서 기트가 어떻게 동작하는지 살펴본 뒤 마지막으로 기트를 사용하려면 어떻게 설정해야하는지 살펴보겠다. 이 장을 마치면 왜 기트가 각광받고 있는지, 왜 기트를 사용해야 하며 그러려면 무엇을 설정해야하는지 알게 될 것이다.
 
-## About Version Control ##
+## 버전 관리란  ##
 
-What is version control, and why should you care? Version control is a system that records changes to a file or set of files over time so that you can recall specific versions later. For the examples in this book you will use software source code as the files being version controlled, though in reality you can do this with nearly any type of file on a computer.
+버전 관리는 무엇이며 왜 우리는 버전 관리를 신경써야 하는가? 버전 관리는 지속적으로 파일 또는 여러 파일의 변경 내역을 기록해두었다가 언젠가 특정 버전으로 복원할 수 있는 시스템을 말한다. 이 책에서는 소스코드를 버전 관리하는데 사용하겠지만 실제로는 컴퓨터에 있는 모든 파일을 전부 버전 관리 할 수 있다.
 
 If you are a graphic or web designer and want to keep every version of an image or layout (which you would most certainly want to), a Version Control System (VCS) is a very wise thing to use. It allows you to revert files back to a previous state, revert the entire project back to a previous state, compare changes over time, see who last modified something that might be causing a problem, who introduced an issue and when, and more. Using a VCS also generally means that if you screw things up or lose files, you can easily recover. In addition, you get all this for very little overhead.
 
